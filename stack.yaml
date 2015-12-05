@@ -1,0 +1,19 @@
+resolver: ghc-7.10.2
+packages:
+    - '.'
+    - location:
+        git: https://github.com/ku-fpg/kure
+        commit: 7ce26aa78afbe8d241f859d5789fef6af485bc95
+      extra-dep: true
+    - location:
+        git: https://github.com/ku-fpg/hermit
+        commit: 5557609f18d83b9acd1aafddaa1cfb3eb64f7c55
+      extra-dep: true
+    - location:
+        git: https://github.com/conal/circat
+        commit: d3f04f566274ea2b70dc1363c59ca4e9f22b3134
+      extra-dep: true
+    - location:
+        git: https://github.com/conal/hermit-extras
+        commit: e24ec101739a52356e6c5966e9258c13810cea4e
+      extra-dep: true
